@@ -12,3 +12,4 @@ pip install -r requirements.txt
 ## Referências
 
 * [https://www.tensorflow.org/datasets/keras_example?hl=pt-br](https://www.tensorflow.org/datasets/keras_example?hl=pt-br)
+* [https://www.tensorflow.org/tutorials/keras/save_and_load](https://www.tensorflow.org/tutorials/keras/save_and_load)
