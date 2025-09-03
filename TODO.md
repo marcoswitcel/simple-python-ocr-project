@@ -10,3 +10,6 @@
 * Ativar driver de GPU no linux
 * Tentar melhorar performance no modelo
 * Aprender como "exportar" o modelo
+* Carregar modelo -- ok
+* Testar modelo contra fotos reais
+* Analisar fotos usadas para treinamento, inspecionar dataset

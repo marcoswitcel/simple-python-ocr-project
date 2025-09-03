@@ -51,3 +51,6 @@ model.fit(
 
 # Exibe resumo
 model.summary()
+
+# salva modelo
+model.save("model.keras")
