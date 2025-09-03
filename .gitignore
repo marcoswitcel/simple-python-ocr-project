@@ -1,2 +1,3 @@
 # extensão escolhida para o modelo
 *.keras
+.idea
