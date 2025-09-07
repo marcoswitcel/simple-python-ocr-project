@@ -14,7 +14,7 @@ print("Olá mundo dos projetos de Machine Learning em Python")
 
 # montando a pipeline de treinamento
 def normalize_img(image, label):
-    """Normalize imgaes: `uint8` -> `float32`."""
+    """Normalize images: `uint8` -> `float32`."""
     return tf.cast(image, tf.float32) / 255., label
 
 ds_train = ds_train.map(normalize_img, num_parallel_calls=tf.data.AUTOTUNE)
