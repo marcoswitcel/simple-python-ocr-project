@@ -1,3 +1,6 @@
 # extensão escolhida para o modelo
 *.keras
+*.h5
+
+# IDE
 .idea

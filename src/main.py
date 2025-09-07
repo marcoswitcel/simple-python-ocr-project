@@ -55,4 +55,4 @@ model.fit(
 model.summary()
 
 # salva modelo
-model.save("model.keras")
+model.save("model.h5")
