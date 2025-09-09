@@ -30,7 +30,7 @@ ds_test = ds_test.batch(128)
 ds_test = ds_test.cache()
 ds_test = ds_test.prefetch(tf.data.AUTOTUNE)
 
-# criando e treinando o modelo
+# definindo o modelo
 model = tf.keras.models.Sequential([
     tf.keras.layers.Flatten(input_shape=(28, 28)),
     tf.keras.layers.Dense(128, activation='relu'),
