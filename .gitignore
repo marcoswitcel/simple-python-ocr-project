@@ -2,5 +2,9 @@
 *.keras
 *.h5
 
+# python bytecode cache
+*.pyc
+__pycache__
+
 # IDE
 .idea
