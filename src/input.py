@@ -12,11 +12,12 @@ def prepare_image(filename: str, target_size=(28, 28)):
     image = image.resize(target_size)
 
     # grayscale (apenas luminosidade)
+    # @note Não está sendo suficiente... o fundo deveria ser em preto e o contorno em branco
     image = image.convert('L')
     # refaz terceira dimensão (ficaria dois eixos apenas sem esse comando)
     image = np.expand_dims(image, axis=-1)
 
-    # dados da imagem (talvez precise arrumar caso seja RGBA)
+    # dados da imagem
     img_data = np.array(image)
 
     # casteia e normaliza
